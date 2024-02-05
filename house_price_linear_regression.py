@@ -32,19 +32,19 @@ print(result_df)
 # for the training set
 plt.scatter(x_train, y_train, color='red')
 plt.plot(x_train, regressor.predict(x_train), color='blue')
-plt.title('square foot area vs price(Training set)')
-plt.xlabel('Years of Experience')
-plt.ylabel('price')
+plt.title('Square Foot Area vs Price(Training set)')
+plt.xlabel('Years Of Experience')
+plt.ylabel('PRice')
 
-#plt.show()
+plt.show()
 
 
 #for the test set
 plt.scatter(x_test, y_test, color='red')
 plt.plot(x_test, regressor.predict(x_test), color='blue')  
-plt.title('square foot area vs price(Test set)')
-plt.xlabel('square foot area ')
-plt.ylabel('price')
+plt.title('Square Foot Area Vs Price(Test set)')
+plt.xlabel('Square Foot Area ')
+plt.ylabel('Price')
 
 # Display the second plot
 plt.show()
